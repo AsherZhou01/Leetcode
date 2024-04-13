@@ -13,7 +13,7 @@ class Solution(object):
         # traverse A then B/ traverse B then A
         p1, p2 = headA, headB
         # if there are intersection -> same node-> p1 == p2 at some point
-        # if there are no intersection -> null == null, return null
+        # if there are no intersection -> None == None, return null
         while p1 != p2:
             # p1 走一步，如果走到 A 链表末尾，转到 B 链表
             if p1 == None:
