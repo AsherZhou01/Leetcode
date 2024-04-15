@@ -1,3 +1,4 @@
+# 这是单调递增的情况
 def binary_search(nums: List[int], target: int) -> int:
     # 设置左右下标
     left, right = 0, len(nums) - 1
