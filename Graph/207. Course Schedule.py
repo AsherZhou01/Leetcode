@@ -30,6 +30,7 @@ class Solution(object):
         return not hasCycle[0]
     
     # example: prerequisites = [[1,0],[0,1]]
+    # [1,0]: from 0 (prerequisites) to 1
     def buildGraph(self, numCourses, prerequisites):
         graph = [[] for _ in range(numCourses)]
         for from_course, to_course in prerequisites:
